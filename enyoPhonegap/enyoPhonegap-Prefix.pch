@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'enyoPhonegap' target in the 'enyoPhonegap' project
+//
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+#endif
