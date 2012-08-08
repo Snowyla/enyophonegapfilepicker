@@ -37,6 +37,7 @@
 		9EFF0B4A15D207AD0068FC63 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EFF0B4915D207AD0068FC63 /* AppDelegate.m */; };
 		9EFF0B4D15D207AD0068FC63 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EFF0B4C15D207AD0068FC63 /* MainViewController.m */; };
 		9EFF0B4F15D207AD0068FC63 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9EFF0B4E15D207AD0068FC63 /* MainViewController.xib */; };
+		9EFF0B5915D209690068FC63 /* www in Resources */ = {isa = PBXBuildFile; fileRef = 9EFF0B5815D209690068FC63 /* www */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,10 +55,10 @@
 		9EFF0B1515D207AD0068FC63 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		9EFF0B1715D207AD0068FC63 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		9EFF0B1915D207AD0068FC63 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
-		9EFF0B1D15D207AD0068FC63 /* enyoPhonegap-Info.plist */ = {isa = PBXFileReference; path = "enyoPhonegap-Info.plist"; sourceTree = "<group>"; };
+		9EFF0B1D15D207AD0068FC63 /* enyoPhonegap-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "enyoPhonegap-Info.plist"; sourceTree = "<group>"; };
 		9EFF0B1F15D207AD0068FC63 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9EFF0B2115D207AD0068FC63 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		9EFF0B2315D207AD0068FC63 /* enyoPhonegap-Prefix.pch */ = {isa = PBXFileReference; path = "enyoPhonegap-Prefix.pch"; sourceTree = "<group>"; };
+		9EFF0B2315D207AD0068FC63 /* enyoPhonegap-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "enyoPhonegap-Prefix.pch"; sourceTree = "<group>"; };
 		9EFF0B2415D207AD0068FC63 /* Cordova.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cordova.framework; path = /Users/Shared/Cordova/Frameworks/Cordova.framework; sourceTree = "<absolute>"; };
 		9EFF0B2915D207AD0068FC63 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Resources/en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		9EFF0B2D15D207AD0068FC63 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = Resources/es.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -70,13 +71,14 @@
 		9EFF0B4115D207AD0068FC63 /* Default@2x~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x~iphone.png"; path = "Resources/splash/Default@2x~iphone.png"; sourceTree = "<group>"; };
 		9EFF0B4315D207AD0068FC63 /* Capture.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Capture.bundle; path = Resources/Capture.bundle; sourceTree = "<group>"; };
 		9EFF0B4515D207AD0068FC63 /* Cordova.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Cordova.plist; sourceTree = "<group>"; };
-		9EFF0B4815D207AD0068FC63 /* AppDelegate.h */ = {isa = PBXFileReference; name = AppDelegate.h; path = Classes/AppDelegate.h; sourceTree = "<group>"; };
+		9EFF0B4815D207AD0068FC63 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Classes/AppDelegate.h; sourceTree = "<group>"; };
 		9EFF0B4915D207AD0068FC63 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Classes/AppDelegate.m; sourceTree = "<group>"; };
-		9EFF0B4B15D207AD0068FC63 /* MainViewController.h */ = {isa = PBXFileReference; name = MainViewController.h; path = Classes/MainViewController.h; sourceTree = "<group>"; };
+		9EFF0B4B15D207AD0068FC63 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = Classes/MainViewController.h; sourceTree = "<group>"; };
 		9EFF0B4C15D207AD0068FC63 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = Classes/MainViewController.m; sourceTree = "<group>"; };
 		9EFF0B4E15D207AD0068FC63 /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MainViewController.xib; path = Classes/MainViewController.xib; sourceTree = "<group>"; };
-		9EFF0B5115D207AD0068FC63 /* README */ = {isa = PBXFileReference; name = README; path = Plugins/README; sourceTree = "<group>"; };
-		9EFF0B5215D207AD0068FC63 /* verify.sh */ = {isa = PBXFileReference; path = verify.sh; sourceTree = "<group>"; };
+		9EFF0B5115D207AD0068FC63 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; name = README; path = Plugins/README; sourceTree = "<group>"; };
+		9EFF0B5215D207AD0068FC63 /* verify.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = verify.sh; sourceTree = "<group>"; };
+		9EFF0B5815D209690068FC63 /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 		9EFF0AEF15D207AC0068FC63 = {
 			isa = PBXGroup;
 			children = (
+				9EFF0B5815D209690068FC63 /* www */,
 				9EFF0B1B15D207AD0068FC63 /* enyoPhonegap */,
 				9EFF0B0015D207AD0068FC63 /* Frameworks */,
 				9EFF0AFE15D207AD0068FC63 /* Products */,
@@ -328,6 +331,7 @@
 				9EFF0B4415D207AD0068FC63 /* Capture.bundle in Resources */,
 				9EFF0B4615D207AD0068FC63 /* Cordova.plist in Resources */,
 				9EFF0B4F15D207AD0068FC63 /* MainViewController.xib in Resources */,
+				9EFF0B5915D209690068FC63 /* www in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
