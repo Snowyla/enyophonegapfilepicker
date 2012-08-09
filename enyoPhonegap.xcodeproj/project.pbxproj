@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9EC96C1915D336AE0031868E /* ChildBrowser in Resources */ = {isa = PBXBuildFile; fileRef = 9EC96C1815D336AE0031868E /* ChildBrowser */; };
 		9EFF0B0215D207AD0068FC63 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EFF0B0115D207AD0068FC63 /* Foundation.framework */; };
 		9EFF0B0415D207AD0068FC63 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EFF0B0315D207AD0068FC63 /* UIKit.framework */; };
 		9EFF0B0615D207AD0068FC63 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EFF0B0515D207AD0068FC63 /* CoreGraphics.framework */; };
@@ -41,6 +42,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9EC96C1815D336AE0031868E /* ChildBrowser */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ChildBrowser; sourceTree = "<group>"; };
 		9EFF0AFD15D207AD0068FC63 /* enyoPhonegap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = enyoPhonegap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EFF0B0115D207AD0068FC63 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		9EFF0B0315D207AD0068FC63 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -256,6 +258,7 @@
 		9EFF0B5015D207AD0068FC63 /* Plugins */ = {
 			isa = PBXGroup;
 			children = (
+				9EC96C1815D336AE0031868E /* ChildBrowser */,
 				9EFF0B5115D207AD0068FC63 /* README */,
 			);
 			name = Plugins;
@@ -332,6 +335,7 @@
 				9EFF0B4615D207AD0068FC63 /* Cordova.plist in Resources */,
 				9EFF0B4F15D207AD0068FC63 /* MainViewController.xib in Resources */,
 				9EFF0B5915D209690068FC63 /* www in Resources */,
+				9EC96C1915D336AE0031868E /* ChildBrowser in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -543,6 +547,7 @@
 				9EFF0B5715D207AD0068FC63 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

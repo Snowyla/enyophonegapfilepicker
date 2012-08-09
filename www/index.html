@@ -30,6 +30,7 @@
 	<script src="enyo-2.0/enyo/enyo.js" type="text/javascript"></script>
 	<script src="enyo-2.0/lib/layout/package.js" type="text/javascript"></script>
 	<script src="enyo-2.0/lib/onyx/package.js" type="text/javascript"></script>
+    <script src="js/ChildBrowser.js" type="text/javascript"></script>
 	<!-- iPad/iPhone specific css below, add after your main css >
 	<link rel="stylesheet" media="only screen and (max-device-width: 1024px)" href="ipad.css" type="text/css" />		
 	<link rel="stylesheet" media="only screen and (max-device-width: 480px)" href="iphone.css" type="text/css" />		
@@ -70,7 +71,16 @@
 	function onDeviceReady()
 	{
 		// do your thing!
-		navigator.notification.alert("Cordova is working")
+		pub.goToUrl = function(sender) {
+            // get url off of data attribute from item that was clicked
+            var url = $(sender).data("url"); 
+            
+            // install ChildBrowser
+            var cb = ChildBrowser.install();
+            // if ChildBrowser is installed, open it with target set
+            if(cb != null)
+            window.plugins.childBrowser.showWebPage(url);
+        }
 	}
     
     </script>
